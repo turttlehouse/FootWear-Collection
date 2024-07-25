@@ -31,7 +31,7 @@ const Navbar = () => {
 
     // navList Data
     const navList = (
-        <ul className="flex flex-col md:flex-row md:space-x-4 text-black font-bold md:text-lg px-5">
+        <ul className="flex flex-col lg:flex-row lg:space-x-4 text-black font-bold lg:text-lg px-5">
             {/* Home */}
             <li>
                 <Link to={'/'} className="nav-link">Home</Link>
